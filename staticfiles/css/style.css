@@ -119,23 +119,23 @@ a {
 }
 
 .main-pink {
-    color: #790141;
+    color: var(--english-violet);
     font-weight: light;
     background: linear-gradient(to bottom right, white, var(--orange))
 }
 
 .main-purple {
-    color: #790141;
+    color: var(--english-violet);
     background: linear-gradient(to bottom right, white, var(--dark-spring-green))
 }
 
 .main-pink-purple {
-    color: #5d0634;
+    color: var(--english-violet);
     background: linear-gradient(to bottom right, var(--orange), var(--english-violet))
 }
 
 .main-pink-pink {
-    color: #5d0634;
+    color: var(--english-violet);
     background: linear-gradient(to bottom right, var(--mint-cream), var(--blue-ncs))
 }
 
@@ -177,7 +177,7 @@ a {
 
 form .login-text {
     padding: 5px;
-    color: var(--english-violet);
+    color: var(--orange);
 }
 
 
@@ -196,7 +196,7 @@ form .login-text {
     border: 1px solid var(--dark-spring-green);
     background-color: transparent;
     cursor: pointer;
-    color: #ff1493;
+    color: var(--orange);
     box-shadow: 1.4px 2.2px 2.1px hsl(0deg 0% 0% / 0.40);
 }
 
@@ -355,7 +355,7 @@ form .login-text {
 
 .wholesales-page-price {
     font-weight: light;
-    color: #2a002d
+    color: var(--english-violet)
 }
 
 .wholesales-item-price {
@@ -415,7 +415,7 @@ form .login-text {
 }
 
 .wholesales-popup {
-    background: white;
+    background: var(--mint-cream);
     width: 70%;
     padding: 20px 10px 10px 10px;
     border-radius: 10px;
@@ -441,12 +441,12 @@ form .login-text {
     margin-bottom: 0.5rem;
     font-weight: bold;
     font-size: 1.3rem;
-    color: #ff0084;
+    color: var(--orange);
     line-height: 1.2;
 }
 
 .wholesales-popup-product-name {
-    color: #c10265;
+    color: var(--dark-spring-green);
 }
 
 .wholesales-popup-input {
@@ -455,7 +455,7 @@ form .login-text {
     border: none;
     outline: none;
     font-size: 1.1rem;
-    border-bottom: 2px solid #ff0084;
+    border-bottom: 2px solid var(--orange);
     padding: 2px 0px 3px 3px; 
 }
 
@@ -463,7 +463,7 @@ form .login-text {
     margin: 10px 5px 0px 0px;
     padding: 10px;
     color: white;
-    background: #ff0084;
+    background: var(--orange);
     border: none;
     outline: none;
     border-radius: 5px;
@@ -502,7 +502,7 @@ form .login-text {
 .stock-header-title {
     width: 100%;
     height: 7vh;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
     font-weight: bold;
     font-size: 1.3rem;
@@ -526,7 +526,7 @@ form .login-text {
 
 .stock-item {
     padding: 5px 3px;
-    border: 1px solid #ff1493;
+    border: 1px solid var(--orange);
     border-radius: 3px;
     cursor: pointer;
 }
@@ -534,7 +534,7 @@ form .login-text {
 
 .stock-item-active {
     color: white;
-    background: #ff0084;
+    background: var(--orange);
     box-shadow: 1.4px 2.2px 2.1px hsl(0deg 0% 0% / 0.40);
 }
 
@@ -548,7 +548,7 @@ form .login-text {
     font-size: 1.3rem;
     font-weight: bolder;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #5f0133;
+    color: var(--english-violet);
     padding: 3% 0% 3% 3%;
 }
 
@@ -600,12 +600,12 @@ form .login-text {
 
 .stock-item-type-product-name {
     font-weight: bold;
-    color: #5f0133;
+    color: var(--english-violet);
     align-self: center;
 }
 
 .stock-item-type-product-status {
-    color: #5f0133;
+    color: var(--english-violet);
 }
 
 .stock-item-type-product-input {
@@ -613,7 +613,7 @@ form .login-text {
     border: none;
     outline: none;
     margin: 2% 0% 2% 0%;
-    border: 1px solid #ff0084;
+    border: 1px solid var(--orange);
     font-weight: bold;
 }
 
@@ -629,8 +629,8 @@ form .login-text {
     margin: 0em 0em 1em 0em;
     font-weight: bold;
     font-size: 1.1rem;
-    border: 1px solid #ff0084;
-    background: #ff0084;
+    border: 1px solid var(--orange);
+    background: var(--orange);
     color: white;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
@@ -643,8 +643,8 @@ form .login-text {
     margin: 0em 0em 1em 0em;
     font-weight: bold;
     font-size: 1.1rem;
-    border: 1px solid #ff0084;
-    background: #ff0084;
+    border: 1px solid var(--orange);
+    background: var(--orange);
     color: white;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
@@ -657,8 +657,8 @@ form .login-text {
     margin: 0em 0em 1em 0em;
     font-weight: bold;
     font-size: 1.1rem;
-    border: 1px solid #ff0084;
-    background: #ff0084;
+    border: 1px solid var(--orange);
+    background: var(--orange);
     color: white;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
@@ -683,7 +683,7 @@ form .login-text {
 }
 
 .stock-item-opening-stock-submit:hover {
-    background: #5f0133;
+    background: var(--dark-spring-green);
 }
 
 .stock-main-closed {
@@ -741,7 +741,7 @@ form .login-text {
 
 .stock-main-closed-shop-sales-handover-con-title {
     font-weight: 400;
-    color: #aa0337;
+    color: var(--orange);
 }
 
 .stock-main-closed-shop-sales-handover-con-input {
@@ -754,7 +754,7 @@ form .login-text {
 
 .stock-main-closed-shop-sales-handover-input {
     width: 80%;
-    border: 1px solid #ff0084;
+    border: 1px solid var(--orange);
     outline: none;
     border-radius: 0.3rem;
 }
@@ -780,7 +780,7 @@ form .login-text {
 
 .stock-main-closed-shop-delivery-handover-con-title {
     font-weight: 400;
-    color: #aa0337;
+    color: var(--orange);
 }
 
 .stock-main-closed-shop-delivery-handover-con-input {
@@ -793,7 +793,7 @@ form .login-text {
 
 .stock-main-closed-shop-delivery-handover-input {
     width: 80%;
-    border: 1px solid #ff0084;
+    border: 1px solid var(--orange);
     outline: none;
     border-radius: 0.3rem;
 }
@@ -807,10 +807,10 @@ form .login-text {
 }
 
 .stock-main-closed-shop-handover-btn {
-    border: 1px solid #ff0051;
+    border: 1px solid var(--orange);
     outline: none;
     color: white;
-    background: #ff0051;
+    background: var(--orange);
     font-weight: bold;
     padding: 0.5rem 1rem;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
@@ -819,17 +819,16 @@ form .login-text {
 
 .stock-main-closed-shop-delivery-handover-btn:hover {
     padding: 0.8rem 1.2rem;
-    background: #8a012d;
+    background: var(--dark-spring-green);
 }
 
 .stock-main-closed-error-con {
     width: 80%;
-    background: aliceblue;
     margin: 0rem 0rem 2rem 0rem;
     border: 2px solid rgb(203, 0, 0);
     background: rgb(233, 52, 52);
     opacity: 1;
-    color: rgb(99, 0, 0);
+    color: var(--english-violet);
     font-weight: 200;
     padding: 3rem 2rem;
     border-radius: 0.5rem;
@@ -844,13 +843,13 @@ form .login-text {
 .confirmation-body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom, #ffd2e9, #f89ecd);
+    background: linear-gradient(to bottom, var(--mint-cream), var(--orange));
     text-align: center;
 }
 
 .confirmation-customer-name {
     padding: 4% 0% 0% 0%;
-    color: #5d0634;
+    color: var(--dark-spring-green);
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -864,8 +863,8 @@ form .login-text {
     display: grid;
     grid-template-columns: 55% 15% 15% 15%;
     padding: 3% 0% 0% 0%;
-    border-top: 1px solid black;
-    border-bottom: 0.1px solid black;
+    border-top: 1px solid var(--dark-spring-green);
+    border-bottom: 0.1px solid var(--dark-spring-green);
 }
 
 .confirmation-purchased-items-title p:first-child {
@@ -877,7 +876,7 @@ form .login-text {
     display: grid;
     grid-template-columns: 55% 15% 15% 15%;
     padding: 2% 0%;
-    border-bottom: 0.1px solid black;
+    border-bottom: 0.1px solid var(--dark-spring-green);
 }
 
 .confirmation-navigations-container {
@@ -886,7 +885,7 @@ form .login-text {
     padding: 10px 2px;
     position: absolute;
     bottom: 0px;
-    box-shadow: 0px 0px 10px 2px #ff0084;
+    box-shadow: 0px 0px 10px 2px var(--orange);
 }
 
 .confirmation-navigations {
@@ -897,28 +896,28 @@ form .login-text {
 }
 
 .confirmation-previous-btn {
-    border: 1px solid #ff0084;
+    border: 1px solid var(--orange);
     outline: none;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
     font-weight: bold;
     border-radius: 16px;
     margin: 10px 0px;
     padding: 4% 8%;
     font-size: 1.1rem;
-    box-shadow:  1.4px 2.2px 2.1px rgb(246, 0, 127);
+    box-shadow:  1.4px 2.2px 2.1px var(--orange);
 }
 
 .confirmation-finish-transaction-btn {
-    border: 1px solid #ff0084;
+    border: 1px solid var(--orange);
     outline: none;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
     font-weight: bold;
     border-radius: 16px;
     margin: 10px 0px;
     padding: 4% 8%;
-    box-shadow:  1.4px 2.2px 2.1px #ff0084;
+    box-shadow:  1.4px 2.2px 2.1px var(--orange);
 }
 
 .conf-total {
@@ -942,7 +941,7 @@ form .login-text {
 }
 
 .confirmation-popup-container {
-    background: white;
+    background: var(--mint-cream);
     display: flex;
     flex-direction: column;
     padding: 3% 2%;
@@ -959,7 +958,7 @@ form .login-text {
     width: 90%;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #ff1493;
+    color: var(--orange);
     margin-bottom: 7%;
     display: flex;
     flex-direction: row;
@@ -993,7 +992,7 @@ form .login-text {
     padding: 0.3rem 0rem 0.3rem 0.4rem;
     border-radius: 0.3rem;
     font-weight: bold;
-    color: #f71e62;
+    color: var(--dark-spring-green);
     margin: 0.3rem 0rem 0.1rem 0rem;
     border: 1px solid rgb(189, 185, 185);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
@@ -1002,7 +1001,7 @@ form .login-text {
 
 .confirmation-popup-trans-info-mode-of-payment:active {
     padding: 0.5rem 0rem 0.5rem 0.4rem;
-    color: #5f0133;
+    color: var(--blue-ncs);
 }
 
 
@@ -1019,7 +1018,7 @@ form .login-text {
     padding: 0.3rem 0rem 0.3rem 0.4rem;
     border-radius: 0.3rem;
     font-weight: bold;
-    color: #f71e62;
+    color: var(--orange);
     border: 1px solid rgb(189, 185, 185);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     margin: 0.1rem 0rem;
@@ -1028,7 +1027,7 @@ form .login-text {
 
 .confirmation-popup-trans-info-cash-payment:active {
     padding: 0.5rem 0rem 0.5rem 0.4rem;
-    color: #5f0133;
+    color: var(--orange);
 }
 
 .confirmation-popup-trans-info-transfer {
@@ -1040,7 +1039,7 @@ form .login-text {
     padding: 0.3rem 0rem 0.3rem 0.4rem;
     border-radius: 0.3rem;
     font-weight: bold;
-    color: #f71e62;
+    color: var(--blue-ncs);
     border: 1px solid rgb(189, 185, 185);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
     margin: 0.1rem 0rem;
@@ -1049,7 +1048,7 @@ form .login-text {
 
 .confirmation-popup-trans-info-transfer:active {
     padding: 0.5rem 0rem 0.5rem 0.4rem;
-    color: #5f0133;
+    color: var(--blue-ncs);
 }
 
 .confirmation-popup-trans-info-pos {
@@ -1070,7 +1069,7 @@ form .login-text {
 
 .confirmation-popup-trans-info-pos:active {
     padding: 0.5rem 0rem 0.5rem 0.4rem;
-    color: #5f0133;    
+    color: var(--english-violet);    
 }
 
 .confirmation-popup-trans-info-payment-info-main-con {
@@ -1106,7 +1105,7 @@ form .login-text {
     justify-content: center;
     align-items: flex-start;
     font-weight: bold;
-    color: #6a0d2a;
+    color: var(--english-violet);
     width: 90%;
 }
 
@@ -1119,7 +1118,7 @@ form .login-text {
 }
 
 .confirmation-popup-trans-info-amount-collected-input {
-    border: 2px solid #f71e62;
+    border: 2px solid var(--orange);
     width: 70%;
     font-weight: bold;
     border-radius: 0.3px;
@@ -1146,7 +1145,7 @@ form .login-text {
 
 .confirmation-popup-trans-info-balance-txt {
     font-weight: bold;
-    color: #6a0d2a;
+    color: var(--english-violet);
 }
 
 .confirmation-popup-trans-info-balance-input-con {
@@ -1158,7 +1157,7 @@ form .login-text {
 }
 
 .confirmation-popup-trans-info-balance-input {
-    border: 2px solid #f71e62;
+    border: 2px solid var(--orange);
     width: 70%;
     font-weight: bold;
     border-radius: 0.3px;
@@ -1185,7 +1184,7 @@ form .login-text {
 
 .confirmation-popup-trans-info-to-balance-txt {
     font-weight: bold;
-    color: #6a0d2a;
+    color: var(--english-violet);
 }
 
 .confirmation-popup-trans-info-to-balance-input-con {
@@ -1197,7 +1196,7 @@ form .login-text {
 }
 
 .confirmation-popup-trans-info-to-balance-input {
-    border: 2px solid #f71e62;
+    border: 2px solid var(--orange);
     width: 70%;
     font-weight: bold;
     border-radius: 0.3px;
@@ -1205,7 +1204,7 @@ form .login-text {
 }
 
 .confirmation-popup-customer-total-amt-show {
-    color: #f71e62;
+    color: var(--orange);
     font-weight: bold;
 }
 
@@ -1224,7 +1223,7 @@ form .login-text {
     border: none;
     outline: none;
     color: white;
-    background: #ff1493;
+    background: var(--orange);
     font-weight: bold;
     padding: 1rem 2rem;
     margin: 0.5rem 0rem;
@@ -1234,14 +1233,14 @@ form .login-text {
 
 
 .confirmation-no-btn:hover {
-    background: #5f0133;
+    background: var(--english-violet);
 }
 
 .confirmation-submit-btn {
     border: none;
     outline: none;
     color: white;
-    background: #ff1493;
+    background: var(--orange);
     font-weight: bold;
     padding: 1rem 2rem;
     margin: 0.5rem 0rem;
@@ -1250,7 +1249,7 @@ form .login-text {
 }
 
 .confirmation-submit-btn:hover {
-    background: #5f0133;
+    background: var(--dark-spring-green);
 }
 
 .conf-hide {
@@ -1266,7 +1265,7 @@ form .login-text {
 .retail-header {
     width: 100%;
     height: 30px;
-    background: #ff1493;
+    background: var(--orange);
     color: white;
     padding: 10px 0px 25px 30px;
     text-align: center;
@@ -1298,7 +1297,7 @@ form .login-text {
 
 .retail-customer-search h3 {
     font-weight: bold;
-    color:#470026;
+    color:var(--english-violet);
     line-height: 1.5;
 }
 
@@ -1341,24 +1340,24 @@ form .login-text {
 
 .retail-product-name {
     font-weight: bolder;
-    color:#38001e;
+    color: var(--orange);
     margin-bottom: 5px;
 }
 
 .retail-page-price {
     font-weight: light;
-    color: #5f0133
+    color: var(--english-violet)
 }
 
 .retail-item-price {
     font-weight: bold;
-    color: #a10757;
+    color: var(--blue-ncs);
 }
 
 .retail-sell-btn {
     width: 80%;
     padding: 7px 2px;
-    background: #ff0084;
+    background: var(--orange);
     border: none;
     outline: none;
     color: white;
@@ -1378,7 +1377,7 @@ form .login-text {
     padding: 10px 0px;
     border: none;
     outline: none;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
     box-shadow: 1.4px 2.2px 2.1px hsl(0deg 0% 0% / 0.40);
     margin: 5px 0px;
@@ -1432,12 +1431,12 @@ form .login-text {
     margin-bottom: 0.5rem;
     font-weight: bold;
     font-size: 1.3rem;
-    color: #ff0084;
+    color: var(--orange);
     line-height: 1.2;
 }
 
 .retail-popup-product-name {
-    color: #c10265;
+    color: var(--english-violet);
 }
 
 .retail-popup-input {
@@ -1446,7 +1445,7 @@ form .login-text {
     border: none;
     outline: none;
     font-size: 1.1rem;
-    border-bottom: 2px solid #ff0084;
+    border-bottom: 2px solid var(--orange);
     padding: 2px 0px 3px 3px; 
 }
 
@@ -1454,7 +1453,7 @@ form .login-text {
     margin: 10px 5px 0px 0px;
     padding: 10px;
     color: white;
-    background: #ff0084;
+    background: var(--orange);
     border: none;
     outline: none;
     border-radius: 5px;
@@ -1490,7 +1489,7 @@ form .login-text {
     position: fixed;
     top: 0%;
     left: 0%;
-    background: white;
+    background: var(--mint-cream);
     width: 100vw;
     height: 100vh;
 }
@@ -1510,7 +1509,7 @@ form .login-text {
 .retail-calculate-details-products {
     display: grid;
     margin: 1% 0%;
-    border-bottom: 0.5px solid #5f0133;
+    border-bottom: 0.5px solid var(--english-violet);
 }
 
 .retail-calculate-total {
@@ -1537,12 +1536,12 @@ form .login-text {
     border: none;
     outline: none;
     color: white;
-    background: #ff0084;
+    background: var(--orange);
     font-weight: bold;
 }
 
 .retail-calculate-go-back:hover {
-    background: #5f0133;
+    background: var(--english-violet);
 }
 
 .retail-calculate-finish-transaction {
@@ -1553,12 +1552,12 @@ form .login-text {
     border: none;
     outline: none;
     color: white;
-    background: #ff0084;
+    background: var(--orange);
     font-weight: bold;
 }
 
 .retail-calculate-finish-transaction:hover {
-    background: #5f0133;
+    background: var(--english-violet);
 }
 
 /* .retail-calculate-go-back {
@@ -1574,7 +1573,7 @@ form .login-text {
 .settings-header {
     width: 100vw;
     height: 5vh;
-    background: #ff1493;
+    background: var(--orange);
     color: white;
     display: flex;
     flex-direction: row;
@@ -1636,7 +1635,7 @@ form .login-text {
 .settings-select {
     font-weight: 0.7rem;
     font-weight: bold;
-    color: #790141;
+    color: var(--dark-spring-green);
 }
 
 .settings-option {
@@ -1654,16 +1653,16 @@ form .login-text {
 }
 
 .settings-employee-create {
-    color: #38001e;
+    color: var(--english-violet);
     padding: 10% 0% 10% 0%;
 }
 
 .settings-employee-input {
     margin: 0% 0% 3% 0%;
     padding: 1% 0% 1% 1%;
-    border: 1px solid #ff0084;
+    border: 1px solid var(--orange);
     outline: none;
-    color: #38001e;
+    color: var(--english-violet);
     width: 35vw;
 }
 
@@ -1674,12 +1673,12 @@ form .login-text {
     font-weight: bold;
     border: none;
     outline: none;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
 }
 
 .settings-employee-submit:hover {
-    background: #470026;
+    background: var(--dark-spring-green);
 }
 
 .settings-delete-old-employee {
@@ -1687,7 +1686,7 @@ form .login-text {
 }
 
 .settings-employee-delete {
-    color: #38001e;
+    color: var(--english-violet);
     padding: 10% 0% 10% 0%;
 }
 
@@ -1696,16 +1695,16 @@ form .login-text {
 }
 
 .settings-product-create {
-    color: #38001e;
+    color: var(--english-violet);
     padding: 10% 0% 10% 0%;
 }
 
 .settings-product-input {
     margin: 0% 0% 3% 0%;
     padding: 1% 0% 1% 1%;
-    border: 1px solid #ff0084;
+    border: 1px solid var(--orange);
     outline: none;
-    color: #38001e;
+    color: var(--english-violet);
     width: 35vw;
 }
 
@@ -1720,12 +1719,12 @@ form .login-text {
     font-weight: bold;
     border: none;
     outline: none;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
 }
 
 .settings-new-product-submit:hover {
-    background: #470026;
+    background: var(--english-violet);
 }
 
 .settings-remove-old-product {
@@ -1733,14 +1732,14 @@ form .login-text {
 }
 
 .settings-product-remove {
-    color: #38001e;
+    color: var(--english-violet);
     padding: 10% 0% 10% 0%;
 }
 
 .settings-product-remove-input {
     margin: 0% 0% 3% 0%;
     padding: 1% 0% 1% 1%;
-    border: 1px solid #ff0084;
+    border: 1px solid var(--orange);
     outline: none;
     color: #38001e;
     width: 35vw;
@@ -1753,12 +1752,12 @@ form .login-text {
     font-weight: bold;
     border: none;
     outline: none;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
 }
 
 .settings-product-remove-submit:hover {
-    background: #470026;
+    background: var(--english-violet);
 }
 
 .settings-change-price {
@@ -1766,16 +1765,16 @@ form .login-text {
 }
 
 .settings-change-price-text {
-    color: #38001e;
+    color: var(--dark-spring-green);
     padding: 10% 0% 10% 0%;
 }
 
 .settings-change-price-input {
     margin: 0% 0% 3% 0%;
     padding: 1% 0% 1% 1%;
-    border: 1px solid #ff0084;
+    border: 1px solid var(--orange);
     outline: none;
-    color: #38001e;
+    color: var(--english-violet);
     width: 35vw;
 }
 
@@ -1786,12 +1785,12 @@ form .login-text {
     font-weight: bold;
     border: none;
     outline: none;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
 }
 
 .settings-change-price-submit:hover {
-    background: #470026;
+    background: var(--english-violet);
 }
 
 .settings-change-admin-password {
@@ -1799,16 +1798,16 @@ form .login-text {
 }
 
 .settings-old-admin {
-    color: #38001e;
+    color: var(--english-violet);
     padding: 10% 0% 10% 0%;
 }
 
 .settings-admin-input {
     margin: 0% 0% 3% 0%;
     padding: 1% 0% 1% 1%;
-    border: 1px solid #ff0084;
+    border: 1px solid var(--orange);
     outline: none;
-    color: #38001e;
+    color: var(--english-violet);
     width: 35vw;
 }
 
@@ -1819,17 +1818,17 @@ form .login-text {
     font-weight: bold;
     border: none;
     outline: none;
-    background: #8B008B;
+    background: var(--blue-ncs);
     color: white;
 }
 
 .settings-new-admin-password {
-    color: #38001e;
+    color: var(--english-violet);
     padding: 10% 0% 10% 0%;
 }
 
 .settings-new-admin {
-    color: #38001e;
+    color: var(--english-violet);
     padding: 10% 0% 10% 0%;
 }
 
@@ -1840,31 +1839,31 @@ form .login-text {
     font-weight: bold;
     border: none;
     outline: none;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
 }
 
 .setting-option-select {
     font-size: 1.15rem;
-    color: #ff0084;
+    color: var(--orange);
 }
 
 .settings-driver-create {
-    color: #38001e;
+    color: var(--english-violet);
     padding: 10% 0% 10% 0%;
 }
 
 .settings-driver-delete {
-    color: #38001e;
+    color: var(--english-violet);
     padding: 10% 0% 10% 0%;
 }
 
 .settings-driver-input {
     margin: 0% 0% 3% 0%;
     padding: 1% 0% 1% 1%;
-    border: 1px solid #ff0084;
+    border: 1px solid var(--orange);
     outline: none;
-    color: #38001e;
+    color: var(--english-violet);
     width: 35vw;
 }
 
@@ -1883,7 +1882,7 @@ form .login-text {
     font-weight: bold;
     border: none;
     outline: none;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
 }
 
@@ -1894,12 +1893,12 @@ form .login-text {
     font-weight: bold;
     border: none;
     outline: none;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
 }
 
 .settings-new-prod-company-info-con {
-    border: 2px solid #ff0084;
+    border: 2px solid var(--orange);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1937,7 +1936,7 @@ form .login-text {
 .settings-company-select-opt {
     border-radius: 0.2rem;
     padding: 0.2rem 0.5rem;
-    color: #ff0084;
+    color: var(--orange);
     font-weight: bold;
 }
 
@@ -1951,7 +1950,7 @@ form .login-text {
 .settings-company-create-main-btn {
     padding: 0.5rem 0.2rem 0.5rem 0.2rem;
     font-weight: bold;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
     border: none;
     outline: none;
@@ -1959,7 +1958,7 @@ form .login-text {
 }
 
 .settings-company-create-main-btn:hover {
-    background: #94044f;
+    background: var(--english-violet);
     font-weight: 900;
 }
 
@@ -1972,7 +1971,7 @@ form .login-text {
     width: 90%;
     text-align: center;
     font-weight: 400;
-    color: #71003a;
+    color: var(--english-violet);
 }
 
 .settings-company-create-sec-con-new-com-name {
@@ -1980,7 +1979,7 @@ form .login-text {
     text-align: center;
     margin: 0.5rem 0rem;
     outline: none;
-    border: 2px solid #a10757;
+    border: 2px solid var(--blue-ncs);
 }
 
 .settings-company-create-sec-con-new-com-ref-name {
@@ -1988,11 +1987,11 @@ form .login-text {
     text-align: center;
     margin: 0.5rem 0rem;
     outline: none;
-    border: 2px solid #a10757;    
+    border: 2px solid var(--blue-ncs);    
 }
 
 .settings-company-create-save-new-com {
-    background: #94044f;
+    background: var(--blue-ncs);
     font-weight: bold;
     border: none;
     outline: none;
@@ -2001,7 +2000,7 @@ form .login-text {
 }
 
 .settings-company-create-save-new-com:hover {
-    background: #470026;
+    background: var(--dark-spring-green);
     font-weight: 900;
 }
 
@@ -2028,7 +2027,7 @@ form .login-text {
 }
 
 .setting-shut-everyone-out-main-title-txt {
-    color: #ef0e55;
+    color: var(--english-violet);
     font-size: 1.1rem;
     font-weight: bold;
 }
@@ -2044,8 +2043,8 @@ form .login-text {
 .setting-shut-everyone-out-main-btn {
     padding: 0.5rem 1rem;
     outline: none;
-    border: 1px solid #aa0337;
-    background: #aa0337;
+    border: 1px solid var(--blue-ncs);
+    background: var(--blue-ncs);
     font-weight: bold;
     color: white;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
@@ -2053,7 +2052,7 @@ form .login-text {
 
 .setting-shut-everyone-out-main-btn:hover {
     padding: 0.7rem 1.2rem;
-    background: #f71e62;
+    background: var(--orange);
 }
 
 .settings-create-new-sub {
@@ -2073,13 +2072,13 @@ form .login-text {
 .settings-create-new-sub-title-txt {
     font-weight: bold;
     font-size: 1.1rem;
-    color: #ef0e55;
+    color: var(--orange);
     margin: 0.5rem 0rem 1rem 0rem;
 }
 
 .create-new-sub-input {
     outline: none;
-    border: 2px solid #ff0051;
+    border: 2px solid var(--orange);
     background: transparent;
     width: 90%;
     padding: 0.3rem 0.2rem;
@@ -2089,8 +2088,8 @@ form .login-text {
 
 .create-new-sub-btn {
     outline: none;
-    border: 1px solid #ef0e55;
-    background: #ef0e55;
+    border: 1px solid var(--orange);
+    background: var(--orange);
     font-weight: bold;
     color: white;
     padding: 0.5rem 0.3rem;
@@ -2101,7 +2100,7 @@ form .login-text {
 
 .create-new-sub-btn:hover {
     font-weight: 900;
-    background:rgb(246, 0, 127);
+    background:var(--dark-spring-green);
 }
 
 .settings-delete-old-sub {
@@ -2121,13 +2120,13 @@ form .login-text {
 .settings-delete-old-sub-main-txt {
     font-weight: bold;
     font-size: 1.1rem;
-    color: #ef0e55;
+    color: var(--orange);
     margin: 0.5rem 0rem 1rem 0rem;
 }
 
 .delete-old-sub-input {
     outline: none;
-    border: 2px solid #ff0051;
+    border: 2px solid var(--dark-spring-green);
     background: transparent;
     width: 90%;
     padding: 0.3rem 0.2rem;
@@ -2137,8 +2136,8 @@ form .login-text {
 
 .delete-old-sub-btn {
     outline: none;
-    border: 1px solid #ef0e55;
-    background: #ef0e55;
+    border: 1px solid var(--orange);
+    background: var(--orange);
     font-weight: bold;
     color: white;
     padding: 0.5rem 0.3rem;
@@ -2149,7 +2148,7 @@ form .login-text {
 
 .delete-old-sub-btn:hover {
     font-weight: 900;
-    background:rgb(246, 0, 127);
+    background: var(--blue-ncs);
 }
 
 .setting-hide {
@@ -2162,7 +2161,7 @@ form .login-text {
 
 
 .delivery-head {
-    background: #ff0084;
+    background: var(--blue-ncs);
     color: white;
     font-weight: bold;
     font-size: 1.2rem;
@@ -2196,7 +2195,7 @@ form .login-text {
 .delivery-outing-first-text {
     font-weight: bold;
     font-size: 1.1rem;
-    color: #ff0084;
+    color: var(--blue-ncs);
 }
 
 .delivery-outing-first-icon {
@@ -2221,7 +2220,7 @@ form .login-text {
     height: 5%;
     border: none;
     outline: none;
-    background: #ff0084;
+    background: var(--blue-ncs);
     color: white;
     margin: 2% 2% 2% 4%;
     padding: 3% 0% 3% 0%;
@@ -2232,7 +2231,7 @@ form .login-text {
 }
 
 .delivery-outing-button:hover {
-    background: #9e0353;
+    background: var(--english-violet);
 }
 
 .delivery-hide {
@@ -2249,7 +2248,7 @@ form .login-text {
     font-size: 1.3rem;
     font-weight: bolder;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #5f0133;
+    color: var(--english-violet);
     padding: 3% 0% 3% 3%;
 }
 
@@ -2274,7 +2273,7 @@ form .login-text {
 }
 
 .delivery-item-type-product {
-    border: 2px solid #ff0084;
+    border: 2px solid var(--dark-spring-green);
     background: white;
     border-radius: 2%;
     display: flex;
@@ -2288,12 +2287,12 @@ form .login-text {
 
 .delivery-item-type-product-name {
     font-weight: bold;
-    color: #5f0133;
+    color: var(--english-violet);
     align-self: center;
 }
 
 .delivery-item-type-product-status {
-    color: #5f0133;
+    color: var(--english-violet);
 }
 
 .delivery-item-type-product-input {
@@ -2301,7 +2300,7 @@ form .login-text {
     border: none;
     outline: none;
     margin: 2% 0% 2% 0%;
-    border: 2px solid #ff0084;
+    border: 2px solid var(--blue-ncs);
     font-weight: bold;
 }
 
@@ -2322,8 +2321,8 @@ form .login-text {
     margin: 0em 0em 1em 0em;
     font-weight: bold;
     font-size: 1.1rem;
-    border: 1px solid #ff0084;
-    background: #ff0084;
+    border: 1px solid var(--blue-ncs);
+    background: var(--blue-ncs);
     color: white;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
@@ -2336,8 +2335,8 @@ form .login-text {
     margin: 0em 0em 1em 0em;
     font-weight: bold;
     font-size: 1.1rem;
-    border: 1px solid #ff0084;
-    background: #ff0084;
+    border: 1px solid var(--blue-ncs);
+    background: var(--blue-ncs);
     color: white;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
@@ -2350,8 +2349,8 @@ form .login-text {
     margin: 0em 0em 1em 0em;
     font-weight: bold;
     font-size: 1.1rem;
-    border: 1px solid #ff0084;
-    background: #ff0084;
+    border: 1px solid var(--blue-ncs);
+    background: var(--blue-ncs);
     color: white;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
@@ -2360,14 +2359,14 @@ form .login-text {
 
 
 .delivery-item-amount-recieved-delivery-submit:hover {
-    background: #5f0133;
+    background: var(--mint-cream);
 }
 
 
 .delivery-sales-header {
     width: 100%;
     height: 30px;
-    background: #ff1493;
+    background: var(--blue-ncs);
     color: white;
     padding: 10px 0px 25px 30px;
     text-align: center;
@@ -2398,7 +2397,7 @@ form .login-text {
     width: 97%;
     height: 50px;
     font-weight: bold;
-    background: #a10757;
+    background: var(--dark-spring-green);
     color: white;
     border: none;
     outline: none;
@@ -2433,7 +2432,7 @@ form .login-text {
 
 .delivery-sales-customer-search h3 {
     font-weight: bold;
-    color:#470026;
+    color:var(--english-violet);
     line-height: 1.5;
 }
 
@@ -2476,24 +2475,24 @@ form .login-text {
 
 .delivery-sales-product-name {
     font-weight: bolder;
-    color:#38001e;
+    color:var(--english-violet);
     margin-bottom: 5px;
 }
 
 .delivery-sales-page-price {
     font-weight: light;
-    color: #5f0133
+    color: var(--english-violet);
 }
 
 .delivery-sales-item-price {
     font-weight: bold;
-    color: #a10757;
+    color: var(--dark-spring-green);
 }
 
 .delivery-sales-sell-btn {
     width: 80%;
     padding: 7px 2px;
-    background: #ff0084;
+    background: var(--blue-ncs);
     border: none;
     outline: none;
     color: white;
@@ -2513,14 +2512,14 @@ form .login-text {
     padding: 10px 0px;
     border: none;
     outline: none;
-    background: #ff0084;
+    background: var(--blue-ncs);
     color: white;
     box-shadow: 1.4px 2.2px 2.1px hsl(0deg 0% 0% / 0.40);
     margin: 5px 0px;
 }
 
 .delivery-sales-calculate-btn:hover {
-    background: #790141;
+    background: var(--dark-spring-green);
 }
 
 .delivery-sales-product-display-hide {
@@ -2569,7 +2568,7 @@ form .login-text {
     margin: 0rem 0rem 0.5rem 0rem;
     font-weight: bold;
     font-size: 1.3rem;
-    color: #ff0084;
+    color: var(--english-violet);
     line-height: 1.2;
 }
 
@@ -2578,7 +2577,7 @@ form .login-text {
 }
 
 .delivery-sales-popup-product-name {
-    color: #c10265;
+    color: var(--english-violet);
 }
 
 .delivery-sales-popup-input {
@@ -2587,7 +2586,7 @@ form .login-text {
     border: none;
     outline: none;
     font-size: 1.1rem;
-    border-bottom: 2px solid #ff0084;
+    border-bottom: 2px solid var(--blue-ncs);
     padding: 2px 0px 3px 3px; 
 }
 
@@ -2595,7 +2594,7 @@ form .login-text {
     margin: 10px 5px 0px 0px;
     padding: 10px;
     color: white;
-    background: #ff0084;
+    background: var(--blue-ncs);
     border: none;
     outline: none;
     border-radius: 5px;
@@ -2654,7 +2653,7 @@ form .login-text {
 .delivery-end-outing-selection-container {
     display: flex;
     flex-direction: column;
-    background: #c10265;
+    background: var(--dark-spring-green);
 }
 
 .delivery-end-outing-text {
@@ -2666,12 +2665,12 @@ form .login-text {
 .delivery-end-outing-yes {
     padding: 0.7rem 1rem 1rem 0.7rem;
     font-weight: bold;
-    border-bottom: 1px solid #ff0084;
+    border-bottom: 1px solid var(--blue-ncs);
 }
 
 .delivery-end-outing-yes:hover {
     font-size: 1.1rem;
-    background: #5f0133;
+    background: var(--dark-spring-green);
 }
 
 .delivery-end-outing-no {
@@ -2681,13 +2680,13 @@ form .login-text {
 
 .delivery-end-outing-no:hover {
     font-size: 1.1rem;
-    background: #5f0133;
+    background: var(--english-violet);
 }
 
 .delivery-outing-calculate-page {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom, rgb(242, 163, 175), rgb(246, 131, 148), rgb(248, 98, 121));
+    background: linear-gradient(to bottom, var(--mint-cream), var(--blue-ncs));
     position: absolute;
     top: 0;
     left: 0;
@@ -2717,13 +2716,13 @@ form .login-text {
 }
 
 .delivery-outing-calc-page-header-txt {
-    color: #280216;
+    color: var(--english-violet);
     font-weight: bold;
     font-size: 1.3rem;
 }
 
 .delivery-outing-calc-page-exit-icon {
-    color: #5d0634;
+    color: var(--english-violet);
 }
 
 .delivery-outing-calc-page-exit-icon:hover {
@@ -2757,7 +2756,7 @@ form .login-text {
 
 .delivery-outing-calc-page-main-title p {
     font-weight: bold;
-    color: rgb(39, 4, 9);
+    color: var(--english-violet);
 }
 
 .delivery-outing-calc-page-content {
@@ -2771,7 +2770,7 @@ form .login-text {
     display: flex;
     flex-direction: row;
     font-weight: bold;
-    color: #400219;
+    color: var(--english-violet);
     padding: 0.5rem 0rem;
     border-bottom: 1px solid black;
 }
@@ -2785,13 +2784,13 @@ form .login-text {
 
 .delivery-outing-page-calc-total-txt {
     font-weight: bold;
-    color: #620232;
+    color: var(--blue-ncs);
     font-size: 1.5rem;
 }
 
 .delivery-outing-page-calc-total-amount {
     font-weight: bold;
-    color: #620232;
+    color: var(--blue-ncs);
     font-size: 1.5rem;    
 }
 
@@ -2807,7 +2806,7 @@ form .login-text {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 10px 10px 30px #ff0084;
+    box-shadow: 10px 10px 30px var(--blue-ncs);
 }
 
 .delivery-outing-calc-page-footer-form {
@@ -2821,7 +2820,7 @@ form .login-text {
 }
 
 .delivery-outing-go-back {
-    background: #ec1467;
+    background: var(--dark-spring-green);
     border: none;
     outline: none;
     font-weight: bold;
@@ -2831,11 +2830,11 @@ form .login-text {
 }
 
 .delivery-outing-go-back:hover {
-    background: #9e0353;
+    background: var(--mint-cream);
 }
 
 .delivery-outing-finish-transaction {
-    background: #ec1467;
+    background: var(--blue-ncs);
     border: none;
     outline: none;
     font-weight: bold;
@@ -2846,7 +2845,7 @@ form .login-text {
 }
 
 .delivery-outing-finish-transaction:hover {
-    background: #9e0353;
+    background: var(--orange);
 }
 
 .delivery-outing-hide {
@@ -2864,7 +2863,7 @@ form .login-text {
     font-size: 1.1rem;
     font-weight: bold;
     padding-top: 2%;
-    color: #6d0239;
+    color: var(--english-violet);
     width: 100%;
     text-align: center;
 }
@@ -2881,7 +2880,7 @@ form .login-text {
     padding: 1% 0% 1% 2%;
     border-radius: 0.2rem;
     border: none;
-    border-bottom: 2px solid #4d0028;
+    border-bottom: 2px solid var(--dark-spring-green);
 }
 
 .delivery-outing-confirmation-amount-submit-amount-btn-container {
@@ -2890,7 +2889,7 @@ form .login-text {
 }
 
 .delivery-outing-confirmation-amount-submit-amount-btn {
-    background: #73013c;
+    background: var(--english-violet);
     color: white;
     font-weight: bold;
     border: none;
@@ -2903,7 +2902,7 @@ form .login-text {
 .delivery-outing-confirmation-product-title {
     margin: 2rem 0rem 1rem 1rem;
     font-weight: bold;
-    color: #5f0133;
+    color: var(--english-violet);
     font-size: 1.4rem;
 }
 
@@ -2923,7 +2922,7 @@ form .login-text {
     margin-top: 1rem;
     font-weight: bold;
     font-size: 1.2rem;
-    color: #5a002f;
+    color: var(--blue-ncs);
 }
 
 .dev-hide {
@@ -2951,7 +2950,7 @@ form .login-text {
 }
 
 .delivery-outing-confirmation-product-product {
-    border: 2px solid #aa0259;
+    border: 2px solid var(--blue-ncs);
     background: white;
     border-radius: 2%;
     display: flex;
@@ -2965,12 +2964,12 @@ form .login-text {
 
 .delivery-outing-confirmation-product-product-name {
     font-weight: bold;
-    color: #5f0133;
+    color: var(--english-violet);
     align-self: center;
 }
 
 .delivery-outing-confirmation-product-product-status {
-    color: #5f0133;
+    color: var(--english-violet);
 }
 
 .delivery-outing-confirmation-product-product-input {
@@ -2978,7 +2977,7 @@ form .login-text {
     border: none;
     outline: none;
     margin: 2% 0% 2% 0%;
-    border: 2px solid #94044f;
+    border: 2px solid var(--blue-ncs);
     font-weight: bold;
 }
 
@@ -2995,7 +2994,7 @@ form .login-text {
     width: 90%;
     padding: 1rem 2rem;
     color: white;
-    background: #94044f;
+    background: var(--blue-ncs);
     font-weight: bold;
     border: none;
     outline: none;
@@ -3004,7 +3003,7 @@ form .login-text {
 }
 
 .delivery-outing-amnt-recieved-delivery-submit:hover {
-    background: #5d0634;
+    background: var(--blue-ncs);
     font-size: 1.1rem;
 }
 
@@ -3016,8 +3015,8 @@ form .login-text {
     margin: 0em 0em 1em 0em;
     font-weight: bold;
     font-size: 1.1rem;
-    border: 1px solid #ff0084;
-    background: #ff0084;
+    border: 1px solid var(--dark-spring-green);
+    background: var(--dark-spring-green)2;
     color: white;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
@@ -3037,13 +3036,13 @@ form .login-text {
     color: white;
     border: none;
     outline: none;
-    background: #e10476;
+    background: var(--orange);
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .delivery-outing-close-for-the-day-btn:hover {
-    background: #71003a;
+    background: var(--dark-spring-green);
     padding: 1.7rem 1.2rem 1.7rem 1.2rem;
     font-size: 1.02rem;
 }
@@ -3077,7 +3076,7 @@ form .login-text {
     font-size: 1.02rem;
     padding: 0rem 0rem 1rem 0rem;
     margin: 0.5rem 0rem 0rem 0rem;
-    color: #c10265;
+    color: var(--blue-ncs);
 }
 
 .delivery-outing-close-for-the-day-btns-container {
@@ -3099,14 +3098,14 @@ form .login-text {
     font-weight: bold;
     border: none;
     outline: none;
-    background: #ff0385;
+    background: var(--blue-ncs);
     color: white;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1); 
 }
 
 .delivery-outing-close-for-the-day-btn-no:hover {
-    background: #620232;
+    background: var(--english-violet);
 }
 
 .delivery-outing-close-for-the-day-btn-yes {
@@ -3114,14 +3113,14 @@ form .login-text {
     font-weight: bold;
     border: none;
     outline: none;
-    background: #ff0385;
+    background: var(--blue-ncs);
     color: white;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1); 
 }
 
 .delivery-outing-close-for-the-day-btn-yes:hover {
-    background: #620232;
+    background: var(--english-violet);
 }
 
 .delivery-outing-calc-page-hover-con {
@@ -3164,13 +3163,13 @@ form .login-text {
 .delivery-outing-calc-pg-cname {
     font-weight: bold;
     font-size: 1.07rem;
-    color: #94044f;
+    color: var(--blue-ncs);
 }
 
 .delivery-outing-calc-pg-total {
     font-weight: bold;
     font-size: 1.07rem;
-    color: #94044f;
+    color: var(--blue-ncs);
 }
 
 .delivery-outing-calc-pg-header-exit-con {
@@ -3205,7 +3204,7 @@ form .login-text {
     padding: 0.5rem 0rem 0.5rem 0.2rem;
     border-radius: 0.3rem;
     font-weight: bold;
-    color: #ce096f;
+    color: var(--blue-ncs);
     border: 2px solid rgba(0, 0, 0, 0.1);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
 }
@@ -3216,7 +3215,7 @@ form .login-text {
     padding: 0.5rem 0rem 0.5rem 0.2rem;
     border-radius: 0.3rem;
     font-weight: bold;
-    color: #ce096f;
+    color: var(--blue-ncs);
     border: 2px solid rgba(0, 0, 0, 0.1);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
 }
@@ -3232,13 +3231,13 @@ form .login-text {
 .delivery-calc-pg-amt-cllcted-txt {
     font-weight: 600;
     margin-bottom: 0.25rem;
-    color: #9e0353;
+    color: var(--english-violet);
 }
 
 .delivery-outing-calc-pg-amt-collected {
     width: 60%;
     outline: none;
-    border: 2px solid #ff0084;
+    border: 2px solid var(--blue-ncs);
 }
 
 .delivery-outing-calc-pg-debt-con {
@@ -3248,13 +3247,13 @@ form .login-text {
 .delivery-outing-calc-pg-debt-credit-txts {
     font-weight: 600;
     margin-bottom: 0.25rem;
-    color: #9e0353;    
+    color: var(--english-violet);    
 }
 
 .delivery-outing-calc-pg-debt {
     width: 60%;
     outline: none;
-    border: 2px solid #ff0084;    
+    border: 2px solid var(--blue-ncs);    
 }
 
 .delivery-outing-calc-pg-credit-con {
@@ -3264,13 +3263,13 @@ form .login-text {
 .delivery-outing-calc-pg-debt-credit-txts {
     font-weight: 600;
     margin-bottom: 0.25rem;
-    color: #9e0353;    
+    color: var(--english-violet);    
 }
 
 .delivery-outing-calc-pg-credit {
     width: 60%;
     outline: none;
-    border: 2px solid #ff0084;        
+    border: 2px solid var(--blue-ncs);        
 }
 
 .delivery-outing-calc-pg-third-con {
@@ -3288,13 +3287,13 @@ form .login-text {
     padding: 0.5rem 0rem 0.5rem 0rem;
     border-radius: 0.5rem;
     font-weight: bold;
-    background: #ff0084;
+    background: var(--blue-ncs);
     color: white;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .delivery-outing-calc-pg-submit-total-values-btn:hover {
-    background: #9e0353;
+    background: var(--english-violet);
     font-size: 1.03rem;
 }
 
@@ -3315,7 +3314,7 @@ form .login-text {
     align-items: center;
     text-align: center;
     padding: 3% 0% 3% 0%;
-    background: #ff0084;
+    background: var(--orange);
     font-weight: bold;
 }
 
@@ -3362,14 +3361,14 @@ form .login-text {
 }
 
 .admin-ham-menu-con {
-    background: #ff5d8f;
+    background: var(--mint-cream);
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #e8356e;
+    border: 1px solid var(--blue-ncs);
     opacity: 0.9;
 }
 
@@ -3387,17 +3386,17 @@ form .login-text {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
-    border-bottom: 1px solid #aa0337;
+    border-bottom: 1px solid var(--english-violet);
 }
 
 .admin-ham-menu-main-con-title-text {
-    color: white;
+    color: var(--dark-spring-green);
     font-weight: bold;
     font-size: 1.2rem;
 }
 
 .admin-ham-menu-main-con-title-exit-icon {
-    color: white;
+    color: var(--orange);
     font-weight: 900;
     font-size: 1.9rem;
     transition: all 0.05s ease;
@@ -3405,7 +3404,7 @@ form .login-text {
 
 
 .admin-ham-menu-main-con-title-exit-icon:hover {
-    color: #fb8eb0;
+    color: var(--mint-cream);
 }
 
 .admin-ham-menu-main-con-item-main-con {
@@ -3420,26 +3419,26 @@ form .login-text {
 .admin-ham-menu-main-con-item {
     width: 90%;
     padding: 0.3rem 0.2rem;
-    color: white;
+    color: var(--dark-spring-green);
     font-weight: bold;
-    border-bottom: 1px solid #f71e62;
+    border-bottom: 1px solid var(--orange);
     transition: all 0.05s ease;
 }
 
 .admin-ham-menu-main-con-item:hover {
-    color: #fb8eb0;
+    color: var(--orange);
     font-size: 1.1rem;
 }
 
 .admin-ham-menu-main-con-item-link {
     width: 100%;
     padding: 0.3rem 0.2rem;
-    color: white;
+    color: var(--dark-spring-green);
     font-weight: bold;
 }
 
 .admin-ham-menu-main-con-item-link:hover {
-    color: #fb8eb0;
+    color: var(--orange);
     font-size: 1.1rem;
 }
 
@@ -3459,10 +3458,10 @@ form .login-text {
 
 .admin-panel-show-new-stock-second-summary-con {
     width: 100%;
-    border: 2px solid #ff0051;
+    border: 2px solid var(--orange);
     border-radius: 0.7rem;
     padding: 0.5rem 0.5rem;
-    background: #fff0f3;
+    background: var(--mint-cream);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease;
     animation-name: maindisplay;
@@ -3486,7 +3485,7 @@ form .login-text {
 
 .admin-panel-show-new-stock-text-amt {
     font-size: 1.1rem;
-    color: #f2759d;
+    color: var(--orange);
 }
 
 .admin-panel-show-new-stock-show-products-con {
@@ -3495,7 +3494,7 @@ form .login-text {
 
 .admin-panel-show-new-stock-show-products-main-txt {
     font-weight: 100;
-    color: #f71e62;
+    color: var(--dark-spring-green);
 }
 
 .admin-panel-show-new-stock-show-products-view-products {
@@ -3505,10 +3504,10 @@ form .login-text {
 
 .admin-panel-show-new-stock-no-new-stock-con {
     width: 100%;
-    border: 2px solid #ff0051;
+    border: 2px solid var(--orange);
     border-radius: 0.7rem;
     padding: 0.5rem 0.5rem;
-    background: #fff0f3;
+    background: var(--mint-cream);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease;    
 }
@@ -3535,10 +3534,10 @@ form .login-text {
 
 .admin-panel-show-info-error-con {
     width: 90%;
-    border: 2px solid #ff0051;
+    border: 2px solid var(--orange);
     border-radius: 0.7rem;
     padding: 0.5rem 0.5rem;
-    background: #fff0f3;
+    background: var(--mint-cream);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease;
 }
@@ -3600,10 +3599,10 @@ form .login-text {
 
 .admin-panel-show-true-audit-display-con {
     width: 100%;
-    border: 2px solid #ff0051;
+    border: 2px solid var(--orange);
     border-radius: 0.7rem;
     padding: 0.5rem 0.5rem;
-    background: #fff0f3;
+    background: var(--mint-cream);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease;        
 }
@@ -3624,7 +3623,7 @@ form .login-text {
 }
 
 .admin-panel-show-true-audit-display-total-qty-goods-sold-txt {
-    color: #f71e62;
+    color: var(--dark-spring-green);
     font-weight: 100;
 }
 
@@ -3637,7 +3636,7 @@ form .login-text {
 }
 
 .admin-panel-show-true-audit-display-total-amt-of-money {
-    color: #f71e62;
+    color: var(--dark-spring-green);
     font-weight: 100;
 }
 
@@ -3650,7 +3649,7 @@ form .login-text {
 }
 
 .admin-panel-show-true-audit-display-total-profit {
-    color: #f71e62;
+    color: var(--dark-spring-green);
     font-weight: 100;
 }
 
@@ -3686,7 +3685,7 @@ form .login-text {
 
 
 .go-live-main-hide-con {
-    background: darkblue;
+    background: var(--orange);
     position: absolute;
     top: 0;
     left: 0;
@@ -3710,12 +3709,12 @@ form .login-text {
     justify-content: space-between;
     align-items: center;
     margin: 0.2rem 0rem 1rem 0rem;
-    border: 2px solid #ef0e55;
+    border: 2px solid var(--orange);
 }
 
 .go-live-main-title-item {
     font-weight: 300;
-    color: #ff0051;
+    color: var(--orange);
     width: 90%;
     display: flex;
     justify-content: center;
@@ -3737,7 +3736,7 @@ form .login-text {
 }
 
 .go-live-shop-main-con {
-    background: rgb(249, 224, 228);
+    background: var(--mint-cream);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -3760,14 +3759,14 @@ form .login-text {
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 500;
     font-size: 1.03rem;
-    color: #a40034;
+    color: var(--english-violet);
     margin: 0.3rem 0rem 0rem 0rem;
 }
 
 .go-live-shop-con-opening-stock-main-con {
     margin: 0.5rem 0.3rem;
-    background: lightpink;
-    border: 2px solid #f71e62;
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);
     padding: 0.3rem 0.3rem;
     display: flex;
     flex-direction: column;
@@ -3797,8 +3796,8 @@ form .login-text {
 
 .go-live-shop-con-new-stock-main-con {
     margin: 0.5rem 0.3rem;
-    background: lightpink;
-    border: 2px solid #f71e62;
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);
     padding: 0.3rem 0.3rem;
     display: flex;
     flex-direction: column;
@@ -3827,8 +3826,8 @@ form .login-text {
 
 .go-live-shop-con-sub-record-main-con {
     margin: 0.5rem 0.3rem;
-    background: lightpink;
-    border: 2px solid #f71e62;
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);
     padding: 0.3rem 0.3rem;
     display: flex;
     flex-direction: column;
@@ -3844,22 +3843,22 @@ form .login-text {
 
 .sbpb {
     font-weight: 500;
-    color: #f71e62;
+    color: var(--dark-spring-green);
 }
 
 .sbapd {
     font-weight: 500;
-    color: #f71e62;
+    color: var(--blue-ncs);
 }
 
 .sbpbtoned {
     font-weight: 500;
-    color: #a40034;
+    color: var(--english-violet);
 }
 
 .sbpbnotice {
     font-weight: 500;
-    color: #ff0051;
+    color: var(--orange);
 }
 
 .go-live-shop-con-sub-record-sub-name-con {
@@ -3872,8 +3871,8 @@ form .login-text {
 
 .go-live-shop-con-wholesalerecord {
     margin: 0.5rem 0.3rem;
-    background: lightpink;
-    border: 2px solid #f71e62;
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);
     padding: 0.3rem 0.3rem;
     display: flex;
     flex-direction: column;
@@ -3897,8 +3896,8 @@ form .login-text {
 
 .go-live-shop-con-retailrecord-main-con {
     margin: 0.5rem 0.3rem;
-    background: lightpink;
-    border: 2px solid #f71e62;
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);
     padding: 0.3rem 0.3rem;
     display: flex;
     flex-direction: column;    
@@ -3921,8 +3920,8 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467;
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);
 }
 
 .go-live-newstockcalculatedvalue-con {
@@ -3930,8 +3929,8 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467;    
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);   
 }
 
 .go-live-newstockprofitvalue-con {
@@ -3939,8 +3938,8 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467;     
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);    
 }
 
 .go-live-total-customer-debt-value-con {
@@ -3948,8 +3947,8 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467;         
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);       
 }
 
 .go-live-totalcustomerbalancevalue-con {
@@ -3957,8 +3956,8 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467;    
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);   
 }
 
 .go-live-totalshopsalesvalue-con {
@@ -3966,8 +3965,8 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467; 
+    background: var(--mint-cream);
+    border: 2px solid var(--orange); 
 }
 
 .go-live-totalamountofmoneyinshop-con {
@@ -3975,8 +3974,8 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467;
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);
 }
 
 .go-live-products-sold-con {
@@ -3984,8 +3983,8 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467;    
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);  
 }
 
 .go-live-products-sold-main-title {
@@ -3998,8 +3997,8 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467;      
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);      
 }
 
 .go-live-allproductsoriginallyavailable {
@@ -4007,8 +4006,8 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467;     
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);     
 }
 
 .go-live-customerstotransfer {
@@ -4016,8 +4015,8 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467;    
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);    
 }
 
 .go-live-customersindebt {
@@ -4025,8 +4024,8 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467;     
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);     
 }
 
 .go-live-customerscredit {
@@ -4034,14 +4033,14 @@ form .login-text {
     padding: 0.4rem 0.4rem;
     display: flex;
     flex-direction: column;
-    background: #ffccd5;
-    border: 2px solid #ec1467;    
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);  
 }
 
 .go-live-shopdeliveryrecorded {
     margin: 0.5rem 0.3rem;
-    background: lightpink;
-    border: 2px solid #f71e62;
+    background: var(--mint-cream);
+    border: 2px solid var(--orange);;
     padding: 0.3rem 0.3rem;
     display: flex;
     flex-direction: column;     
@@ -4073,7 +4072,7 @@ form .login-text {
 
 .go-live-delivery-main-con {
     margin: 1rem 0rem;
-    background: #FFD6FF;
+    background: var(--mint-cream);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -4085,7 +4084,7 @@ form .login-text {
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 500;
     font-size: 1.03rem;
-    color: #3c096c;
+    color: var(--dark-spring-green);
     margin: 0.3rem 0rem 0.5rem 0rem;
     display: flex;
     flex-direction: column;
@@ -4094,9 +4093,9 @@ form .login-text {
 }
 
 .go-live-delivery-content-style {
-    background: #c77dff;
+    background: var(--mint-cream);
     margin: 0.5rem 0.3rem;
-    border: 2px solid #240046;
+    border: 2px solid var(--dark-spring-green);
     padding: 0.3rem 0.3rem;
     display: flex;
     flex-direction: column; 
@@ -4118,7 +4117,7 @@ form .login-text {
 }
 
 .go-live-activesalesrecord-sales-customers-customername-value {
-    color: #7b2cbf;
+    color: var(--dark-spring-green);
 }
 
 .go-live-todayallstartrecord-products-main-con {
@@ -4177,7 +4176,7 @@ form .login-text {
 }
 
 .today-invoice-main-hide-con {
-    background: whitesmoke;
+    background: var(--mint-cream);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -4225,7 +4224,7 @@ form .login-text {
 
 .today-invoice-main-header-title {
     font-size: large;
-    color: #f71e62;
+    color: var(--orange);
 }
 
 .today-invoice-main-header-exit-con {
@@ -4256,7 +4255,7 @@ form .login-text {
     padding: 1rem 0rem;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
-    border: 1px solid #ffccd5;
+    border: 1px solid var(--blue-ncs);
 }
 
 .all-invoices-main-hide-con {
@@ -4267,7 +4266,7 @@ form .login-text {
     left: 0;
     right: 0;
     /* background: linear-gradient(to bottom, #ff758f, #ff4d6d, #ff0051, #c9184a); */
-    background: linear-gradient(to bottom, #fff0f3, #fadde1, #ffcad4, #ffccd5, #ffb3c1, #ff8fa3)
+    background: linear-gradient(to bottom, #fff0f3, var(--mint-cream))
 }
 
 .all-invoices-main-con {
@@ -4294,12 +4293,12 @@ form .login-text {
     justify-content: center;
     align-items: center;
     padding: 0.3rem 0rem 0.3rem 0rem;
-    border-bottom: 2px solid #a40034;
+    border-bottom: 2px solid var(--blue-ncs);
 }
 
 .all-invoices-main-header-title-txt {
     font-size: large;
-    color: #a40034;
+    color: var(--blue-ncs);
 }
 
 .all-invoices-main-header-exit-con {
@@ -4311,7 +4310,7 @@ form .login-text {
 }
 
 .all-invoices-main-header-exit-con:hover {
-    background: #ffb3c1;
+    background: var(--mint-cream);
 }
 
 .all-invoices-main-header-exit-icon {
@@ -4345,11 +4344,11 @@ form .login-text {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, white, whitesmoke, #EDEDE9, #F5EBE0);
+    background: linear-gradient(to bottom, white, var(--mint-cream));
     margin: 0.5rem 0rem;
     padding: 0.5rem 0rem;
     border-radius: 0.5rem;
-    border: 1px solid #ffccd5;
+    border: 1px solid var(--blue-ncs);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -4386,14 +4385,14 @@ form .login-text {
 .admin-panel-shop-sales-audit-main-header-con {
     width: 100%;
     height: 10%;
-    background: pink;
+    background: var(--mint-cream);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 0rem 0rem 0.5rem 0rem;
     padding: 0.2rem 0rem 0.5rem 0rem;
-    border-bottom: 1px solid #ef0e55;
+    border-bottom: 1px solid var(--orange);
 }
 
 .admin-panel-shop-sales-audit-title-con {
@@ -4407,7 +4406,7 @@ form .login-text {
     align-items: center;
     font-weight: bold;
     font-size: large;
-    color: #8a012d;
+    color: var(--english-violet);
 }
 
 .admin-panel-shop-sales-audit-exit-con {
@@ -4418,11 +4417,11 @@ form .login-text {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #aa0337;
+    color: var(--dark-spring-green);
 }
 
 .admin-panel-shop-sales-audit-exit-con:hover {
-    background: #ff8fa3;
+    background: var(--blue-ncs);
     color: #333;
     transition: all 0.2s ease;
 }
@@ -4438,7 +4437,7 @@ form .login-text {
 .admin-panel-shop-sales-main-item-styling {
     background: lavenderblush;
     margin: 0.3rem 0.3rem;
-    border: 2px solid #f71e62;
+    border: 2px solid var(--orange);
     border-radius: 0.3rem;
     padding: 0.4rem 0.4rem;
     display: flex;
@@ -4450,23 +4449,23 @@ form .login-text {
 .admin-panel-shop-sales-main-title {
     color: #333;
     margin: 0.3rem 0rem 0.7rem 0rem;
-    border-bottom: 1px solid #f71e62;
+    border-bottom: 1px solid var(--orange);
     align-self: center;
 }
 
 .admin-panel-shop-sales-least-highlighted {
     font-weight: bold;
-    color: #a40034;
+    color: var(--english-violet);
 }
 
 .admin-panel-shop-sales-second-least-highlighted {
     font-weight: bold;
-    color: #ef0e55;
+    color: var(--blue-ncs);
 }
 
 .admin-panel-shop-sales-most-highlighted {
     font-weight: bold;
-    color: #ff0385;
+    color: var(--orange);
 }
 
 .admin-panel-shop-sales-item-content-margin {
@@ -4480,13 +4479,13 @@ form .login-text {
 .admin-panel-shop-sales-audit-main-body-new-stock-item-con {
     margin: 0.3rem 0rem 0.5rem 0rem;
     padding: 0rem 0rem 0.5rem 0rem;
-    border-bottom: 1px solid #ef0e55;
+    border-bottom: 1px solid var(--orange);
 }
 
 .admin-panel-shop-sales-audit-main-body-underline-item-con {
     margin: 0.3rem 0rem 0.5rem 0rem;
     padding: 0rem 0rem 0.5rem 0rem;
-    border-bottom: 1px solid #ef0e55;
+    border-bottom: 1px solid var(--orange);
 }
 
 .admin-panel-shop-sales-all-sub-sales-main-product-data-con {
@@ -4513,8 +4512,8 @@ form .login-text {
 
 .admin-panel-shop-sales-full-shop-sales-audit-audit-messages-title {
     font-weight: bold;
-    color: #a40034;
-    border-bottom: 1px solid #e10476;
+    color: var(--english-violet);
+    border-bottom: 1px solid var(--blue-ncs);
     width: 40%;
     margin: 0.2rem 0rem 0.5rem 0rem;
 }
@@ -4539,13 +4538,13 @@ form .login-text {
 .admin-panel-delivery-sales-main-header-con {
     width: 100%;
     height: 10%;
-    background: #e4a0f7;
+    background: var(--mint-cream);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0.3rem 0rem;
-    border-bottom: 1px solid rgb(64, 0, 64);
+    border-bottom: 1px solid var(--english-violet);
 }
 
 .admin-panel-delivery-sales-main-title-con {
@@ -4559,7 +4558,7 @@ form .login-text {
 .admin-panel-delivery-sales-main-title-txt {
     font-size: 1.1rem;
     font-weight: bold;
-    color: rgb(49, 1, 49);
+    color: var(--dark-spring-green);
 }
 
 .admin-panel-delivery-sales-main-exit-con {
@@ -4571,14 +4570,14 @@ form .login-text {
 }
 
 .admin-panel-delivery-sales-main-exit-con:hover {
-    background: #c77dff;
+    background: var(--dark-spring-green);
     font-size: 1.3rem;
 }
 
 .admin-panel-delivery-sales-main-exit-icon {
     font-size: 1.2rem;
     font-weight: bold;
-    color: rgb(49, 1, 49);
+    color: var(--english-violet);
 }
 
 .admin-panel-delivery-sales-main-body-con {
@@ -4587,14 +4586,14 @@ form .login-text {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #fae6fa;
+    background: var(--mint-cream);
     padding: 0.5rem 0rem;
 }
 
 .admin-panel-delivery-sales-main-content-styling {
     background: lavenderblush;
     margin: 0.3rem 0.3rem;
-    border: 2px solid #800080;
+    border: 2px solid var(--dark-spring-green);
     border-radius: 0.3rem;
     padding: 0.5rem 0.4rem;
     display: flex;
@@ -4608,39 +4607,39 @@ form .login-text {
     color: #333;
     padding: 0.1rem 0rem;
     margin: 0rem 0rem 0.5rem 0rem;
-    border-bottom: 1px solid #720e9e;
+    border-bottom: 1px solid var(--dark-spring-green);
 }
 
 .admin-panel-delivery-sales-main-content-styling-underline {
     margin: 0.5rem 0rem;
     padding: 0rem 0rem 0.2rem 0rem;
-    border-bottom: 1px solid rgb(175, 0, 175);
+    border-bottom: 1px solid var(--dark-spring-green);
 }
 
 .admin-panel-delivery-sales-least-highlighted-txt {
     font-weight: bold;
-    color: #dda0dd;
+    color: var(--english-violet);
 }
 
 .admin-panel-delivery-sales-second-highlighted-txt {
     font-weight: bold;
-    color: rgb(175, 0, 175);
+    color: var(--blue-ncs);
 }
 
 .admin-panel-delivery-sales-most-highlighted-txt {
     font-weight: bold;
-    color: #720e9e;
+    color: var(--orange);
 }
 
 .admin-panel-delivery-sales-mildly-highlighted-txt {
     font-weight: bold;
-    color: #d8bfd8;
+    color: var(--mint-cream);
 }
 
 .admin-panel-delivery-sales-keyddsds-valueddsds-main-con {
     margin: 0.5rem 0rem;
     padding: 0rem 0rem 0.5rem 0rem;
-    border-bottom: 2px solid #240046;
+    border-bottom: 2px solid var(--dark-spring-green);
 }
 
 
@@ -4650,14 +4649,14 @@ form .login-text {
 
 .admin-panel-delivery-sales-driver-delivery-stock-details-products-data-main-title {
     font-weight: bold;
-    color: #720e9e;
+    color: var(--dark-spring-green);
     margin: 0.2rem 0rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .admin-panel-delivery-sales-driver-delivery-stock-details-products-data-product {
     font-weight: bold;
-    color: #7b2cbf;
+    color: var(--dark-spring-green);
     margin: 0.3rem 0rem;
 }
 
@@ -4667,7 +4666,7 @@ form .login-text {
 
 .admin-panel-delivery-sales-driver-delivery-stock-details-amount-brought-back-main-value-item {
     font-weight: bold;
-    color: #ee82ee;
+    color: var(--mint-cream);
 }
 
 .admin-panel-delivery-sales-driver-delivery-stock-details-amount-brought-back-main-con {
@@ -4678,7 +4677,7 @@ form .login-text {
 .admin-panel-delivery-sales-driver-delivery-stock-details-all-customers-data-main-title {
     padding: 0.2rem 0rem 0.3rem 0.5rem;
     margin: 0rem 0rem 0.5rem 0rem;
-    border-bottom: 1px solid #7b2cbf;
+    border-bottom: 1px solid var(--dark-spring-green);
     width: 40%;
 }
 
@@ -4691,9 +4690,9 @@ form .login-text {
 }
 
 .admin-panel-delivery-sales-driver-delivery-stock-details-style-con {
-    border-top: 1px solid #3c096c;
-    border-right: 1px solid #3c096c;
-    border-bottom: 1px solid #3c096c;
+    border-top: 1px solid var(--dark-spring-green);
+    border-right: 1px solid var(--dark-spring-green);
+    border-bottom: 1px solid var(--dark-spring-green);
     margin: 0rem 0rem 0.7rem 0rem;
     padding: 0.5rem 0rem 0.7rem 0rem;
 }
@@ -4916,7 +4915,7 @@ form .login-text {
     align-items: center;
     margin: 0rem 0rem 1rem 0rem;
     padding: 0.5rem 0rem;
-    border-bottom: 2px solid #800080;
+    border-bottom: 2px solid var(--dark-spring-green);
 }
 
 .admin-panel-audit-history-main-title-txt-con {
@@ -4925,14 +4924,14 @@ form .login-text {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #ff0051;
+    border-bottom: 2px solid var(--orange);
     padding: 0.2rem 0rem 0.15rem 0rem;
 }
 
 .admin-panel-audit-history-main-title-txt {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #a40034;
+    color: var(--english-violet);
 }
 
 .admin-panel-audit-history-main-title-exit-con {
@@ -4965,8 +4964,8 @@ form .login-text {
     width: 100%;
     padding: 0rem 0rem 0.5rem 0rem;
     margin: 1rem 0rem;
-    background: linear-gradient(to bottom, #FCF0F3, #FAEBFB);
-    border: 4px solid #ff0051;
+    background: linear-gradient(to bottom, #FCF0F3, var(--mint-cream));
+    border: 4px solid var(--orange);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -5013,13 +5012,13 @@ form .login-text {
     justify-content: center;
     align-items: center;
     padding: 0.3rem 0rem;
-    border-bottom: 2px solid #f71e62;
+    border-bottom: 2px solid var(--orange);
 }
 
 .admin-panel-catalogue-section-main-header-title-txt {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #aa0337;
+    color: var(--dark-spring-green);
 }
 
 .admin-panel-catalogue-section-main-header-exit-con {
@@ -5057,22 +5056,22 @@ form .login-text {
 }
 
 .admin-panel-catalogue-section-options-catalogue-settings-con {
-    background: #FFD6FF;
+    background: var(--mint-cream);
     height: 30rem;
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(175, 0, 175);
+    border: 2px solid var(--orange);
     border-radius: 0.5rem;
-    box-shadow: 10px 10px 30px rgba(218, 64, 218, 0.5);
+    box-shadow: 10px 10px 30px var(--orange);
 }
 
 .admin-panel-catalogue-section-options-catalogue-settings-txt {
     font-size: 1.1rem;
     font-weight: bold;
-    color: rgb(49, 1, 49);
+    color: var(--english-violet);
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -5081,22 +5080,22 @@ form .login-text {
 }
 
 .admin-panel-catalogue-section-options-view-catalogue-con {
-    background: #ffccd5;
+    background: var(--mint-cream);
     height: 30rem;
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid #ff0051;
+    border: 2px solid var(--orange);
     border-radius: 0.5rem;
-    box-shadow: 10px 10px 30px rgba(246, 0, 127, 0.5);
+    box-shadow: 10px 10px 30px var(--orange);
 }
 
 .admin-panel-catalogue-section-options-view-catalogue-txt {
     font-size: 1.1rem;
     font-weight: bold;
-    color: #f71e62;
+    color: var(--blue-ncs);
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -5124,7 +5123,7 @@ form .login-text {
 
 .admin-panel-catalogue-settings-main-header-con {
     width: 100%;
-    background: rgb(122, 0, 122);
+    background: var(--dark-spring-green);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -5176,14 +5175,14 @@ form .login-text {
 }
 
 .admin-panel-catalogue-settings-nav-add-product-con {
-    border: 2px solid #3c096c;
+    border: 2px solid var(--english-violet);
     border-radius: 0.5rem;
     padding: 0.3rem 0.7rem;
 }
 
 .admin-panel-catalogue-settings-nav-add-delete-product-con-hover {
     font-weight: bold;
-    background: rgb(79, 7, 79);
+    background: var(--blue-ncs);
     color: white;
     padding: 0.4rem 0.9rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
@@ -5196,17 +5195,17 @@ form .login-text {
 }
 
 .admin-panel-catalogue-settings-nav-add-product-txt {
-    color: #280216;
+    color: var(--english-violet);
 }
 
 .admin-panel-catalogue-settings-nav-delete-product-con {
-    border: 2px solid #3c096c;
+    border: 2px solid var(--dark-spring-green);
     border-radius: 0.5rem;
     padding: 0.3rem 0.7rem;
 }
 
 .admin-panel-catalogue-settings-nav-delete-product-txt {
-    color: #280216;
+    color: var(--english-violet);
 }
 
 .admin-panel-catalogue-settings-main-body-con {
@@ -5240,13 +5239,13 @@ form .login-text {
     align-items: center;
     padding: 0rem 0rem 0.3rem 0rem;
     margin: 0rem 0rem 1rem 0rem;
-    border-bottom: 1px solid #3c096c;
+    border-bottom: 1px solid var(--orange);
 }
 
 .admin-panel-catalogue-settings-add-product-title-txt {
     font-size: 1.2rem;
     font-weight: bold;
-    color:rgb(41, 0, 41);
+    color:var(--english-violet);
 }
 
 .admin-panel-catalogue-settings-add-product-con form {
@@ -5264,7 +5263,7 @@ form .login-text {
 
 .admin-panel-catalogue-settings-add-product-create-txt {
     font-weight: bold;
-    color:rgb(25, 0, 25);
+    color:var(--english-violet);
     width: 45%;
 }
 
@@ -5272,7 +5271,7 @@ form .login-text {
     width: 50%;
     outline: none;
     background: transparent;
-    border: 2px solid rgb(79, 7, 79);
+    border: 2px solid var(--orange);
 }
 
 .admin-panel-catalogue-settings-add-product-submit-btn-con {
@@ -5287,15 +5286,15 @@ form .login-text {
 .admin-panel-catalogue-settings-add-product-submit-btn {
     padding: 0.7rem 1rem;
     border-radius: 0.3rem;
-    border: 1px solid #3c096c;
-    background: #3c096c;
+    border: 1px solid var(--dark-spring-green);
+    background: var(--dark-spring-green);
     font-weight: bold;
     color: white;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .admin-panel-catalogue-settings-add-product-submit-btn:hover {
-    background: #240046;
+    background: var(--dark-spring-green);
 }
 
 .admin-panel-catalogue-settings-delete-product-main-hide-con {
@@ -5324,9 +5323,9 @@ form .login-text {
 .admin-panel-catalogue-settings-delete-product-title-txt {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #240046;
+    color: var(--dark-spring-green);
     margin: 0rem 0rem 0.5rem 0rem;
-    border-bottom: 2px solid #240046;
+    border-bottom: 2px solid var(--dark-spring-green);
 }
 
 .admin-panel-catalogue-settings-delete-product-main-con form {
@@ -5350,21 +5349,21 @@ form .login-text {
 .admin-panel-catalogue-settings-delete-product-name-txt {
     width: 40%;
     font-weight: bold;
-    color:rgb(25, 0, 25);
+    color:var(--english-violet);
 }
 
 .admin-panel-catalogue-settings-delete-product-input {
     width: 50%;
     background: transparent;
     outline: none;
-    border: 2px solid #3c096c;
+    border: 2px solid var(--dark-spring-green);
     font-weight: bold;
 }
 
 .admin-panel-catalogue-settings-delete-product-button {
     padding: 0.5rem 1rem;
     font-weight: bold;
-    background: #240046;
+    background: var(--dark-spring-green);
     color: white;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
@@ -5393,7 +5392,7 @@ form .login-text {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: #f71e62;
+    background: var(--orange);
     margin: 0rem 0rem 1rem 0rem;
     padding: 0.5rem 0rem;
 }
@@ -5459,7 +5458,7 @@ form .login-text {
     align-items: center;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
-    border: 2px solid #ff0051;
+    border: 2px solid var(--orange);
 }
 
 .admin-panel-view-catalogue-cat-item-image {
@@ -5492,7 +5491,7 @@ form .login-text {
 
 .admin-panel-view-catalogue-cat-item-general-lead {
     font-weight: bold;
-    color: rgb(63, 1, 63);
+    color: var(--dark-spring-green);
 }
 
 .admin-panel-view-catalogue-cat-item-general-lead-value {
@@ -5533,7 +5532,7 @@ form .login-text {
 }
 
 .admin-panel-grant-access-title-txt {
-    color: #a40034;
+    color: var(--orange);
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -5563,15 +5562,15 @@ form .login-text {
     width: 100%;
     padding: 1rem 2rem;
     outline: none;
-    background: #ff0051;
-    border: 1px solid #ff0051;
+    background: var(--orange);
+    border: 1px solid var(--orange);
     color: white;
     font-weight: bold;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .admin-panel-grant-access-no-btn:hover {
-    background: #c10265;
+    background: var(--dark-spring-green);
 }
 
 .admin-panel-grant-access-yes-btn-con {
@@ -5582,15 +5581,15 @@ form .login-text {
     width: 100%;
     padding: 1rem 2rem;
     outline: none;
-    background: rgb(122, 0, 122);
-    border: 1px solid rgb(122, 0, 122);
+    background: var(--dark-spring-green);
+    border: 1px solid var(--dark-spring-green);
     color: white;
     font-weight: bold;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .admin-panel-grant-access-yes-btn:hover {
-    background:rgb(96, 1, 96);
+    background:var(--dark-spring-green);
 }
 
 .admin-panel-clear-entire-database-section-main-hide-con {
@@ -5636,7 +5635,7 @@ form .login-text {
     margin: 0.5rem 0rem 2rem 0rem;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #8a012d;    
+    color: var(--english-violet);    
 }
 
 .admin-panel-clear-entire-database-section-main-btns-con {
@@ -5669,8 +5668,8 @@ form .login-text {
 .admin-panel-clear-entire-database-section-go-back-btn {
     width: 90%;
     outline: none;
-    background: #ec1467;
-    border: 1px solid #ec1467;
+    background: var(--orange);
+    border: 1px solid var(--orange);
     color: white;
     font-weight: bold;
     padding: 0.7rem 0.3rem;
@@ -5680,7 +5679,7 @@ form .login-text {
 .admin-panel-clear-entire-database-section-go-back-btn:hover {
     font-size: 1.1rem;
     width: 95%;
-    background: #8a012d;     
+    background: var(--blue-ncs);     
 }
 
 .admin-panel-clear-entire-database-section-proceed-btn-con {
@@ -5696,8 +5695,8 @@ form .login-text {
 .admin-panel-clear-entire-database-section-proceed-btn {
     width: 90%;
     outline: none;
-    background: #ec1467;
-    border: 1px solid #ec1467;
+    background: var(--blue-ncs);
+    border: 1px solid var(--blue-ncs);
     color: white;
     font-weight: bold;
     padding: 0.7rem 0.3rem;
@@ -5707,7 +5706,7 @@ form .login-text {
 .admin-panel-clear-entire-database-section-proceed-btn:hover {
     font-size: 1.1rem;
     width: 95%;
-    background: #8a012d; 
+    background: var(--english-violet); 
 }
 
 /* new section */
@@ -5788,8 +5787,8 @@ form .login-text {
 .admin-panel-manually-close-shop-section-go-back-btn {
     width: 90%;
     outline: none;
-    background: rgb(122, 0, 122);
-    border: 1px solid rgb(122, 0, 122);
+    background: var(--dark-spring-green);
+    border: 1px solid var(--dark-spring-green);
     color: white;
     font-weight: bold;
     padding: 0.7rem 0.3rem;
@@ -5799,7 +5798,7 @@ form .login-text {
 .admin-panel-manually-close-shop-section-go-back-btn:hover {
     font-size: 1.1rem;
     width: 95%;
-    background: #8a012d;     
+    background: var(--english-violet);     
 }
 
 .admin-panel-manually-close-shop-section-proceed-btn-con {
@@ -5815,8 +5814,8 @@ form .login-text {
 .admin-panel-manually-close-shop-section-proceed-btn {
     width: 90%;
     outline: none;
-    background: rgb(122, 0, 122);
-    border: 1px solid rgb(122, 0, 122);
+    background: var(--dark-spring-green);
+    border: 1px solid var(--dark-spring-green);
     color: white;
     font-weight: bold;
     padding: 0.7rem 0.3rem;
@@ -5826,7 +5825,7 @@ form .login-text {
 .admin-panel-manually-close-shop-section-proceed-btn:hover {
     font-size: 1.1rem;
     width: 95%;
-    background: #8a012d; 
+    background: var(--english-violet); 
 }
 
 
@@ -5850,7 +5849,7 @@ form .login-text {
     text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
-    background: rgb(79, 7, 79);
+    background: var(--dark-spring-green);
     color: white;
     margin-bottom: 1%;
 }
@@ -5886,7 +5885,7 @@ form .login-text {
     width: 97%;
     height: 50px;
     font-weight: bold;
-    background: rgb(64, 0, 64);
+    background: var(--blue-ncs);
     color: white;
     border: none;
     outline: none;
@@ -5927,7 +5926,7 @@ form .login-text {
     font-size: 1.3rem;
     font-weight: bolder;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #5f0133;
+    color: var(--dark-spring-green);
     padding: 3% 0% 3% 3%;
 }
 
@@ -5946,7 +5945,7 @@ form .login-text {
 }
 
 .delivery-shop-item-type-product {
-    border: 2px solid rgb(122, 0, 122);
+    border: 2px solid var(--dark-spring-green);
     background: white;
     border-radius: 2%;
     display: flex;
@@ -5960,12 +5959,12 @@ form .login-text {
 
 .delivery-shop-item-type-product-name {
     font-weight: bold;
-    color: #5f0133;
+    color: var(--english-violet);
     align-self: center;
 }
 
 .delivery-shop-item-type-product-status {
-    color: #5f0133;
+    color: var(--english-violet);
 }
 
 .delivery-shop-item-type-product-input {
@@ -5973,7 +5972,7 @@ form .login-text {
     border: none;
     outline: none;
     margin: 2% 0% 2% 0%;
-    border: 2px solid rgb(64, 0, 64);
+    border: 2px solid var(--dark-spring-green);
     font-weight: bold;
 }
 
@@ -5989,8 +5988,8 @@ form .login-text {
     margin: 0em 0em 1em 0em;
     font-weight: bold;
     font-size: 1.1rem;
-    border: 1px solid rgba(233, 90, 233, 0.648);
-    background: rgba(218, 64, 218, 0.912);
+    border: 1px solid var(--dark-spring-green);
+    background: var(--dark-spring-green);
     color: white;
     border-radius: 0.5rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
@@ -5999,7 +5998,7 @@ form .login-text {
 
 
 .delivery-shop-item-opening-delivery-shop-submit:hover {
-    background: #5f0133;
+    background: var(--blue-ncs);
 }
 
 .delivery-shop-hide {
@@ -6017,7 +6016,7 @@ form .login-text {
     font-size: 1.1rem;
     font-weight: bold;
     padding-top: 2%;
-    color: rgb(25, 0, 25);
+    color: var(--english-violet);
     width: 100%;
     text-align: center;
 }
@@ -6034,7 +6033,7 @@ form .login-text {
     padding: 1% 0% 1% 2%;
     border-radius: 0.2rem;
     border: none;
-    border-bottom: 2px solid rgb(79, 7, 79);
+    border-bottom: 2px solid var(--dark-spring-green);
 }
 
 .delivery-shop-submit-amount-btn-container {
@@ -6043,7 +6042,7 @@ form .login-text {
 }
 
 .delivery-shop-submit-amount-btn {
-    background:rgb(64, 0, 64);
+    background:var(--dark-spring-green);
     color: white;
     font-weight: bold;
     border: none;
@@ -6060,7 +6059,7 @@ form .login-text {
 
 .delivery-shop-brought-back-title {
     font-size: 2rem;
-    color: rgb(41, 0, 41);
+    color: var(--english-violet);
     text-align: center;
 }
 
@@ -6091,7 +6090,7 @@ form .login-text {
     font-size: 1.3rem;
     font-weight: bolder;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #5f0133;
+    color: var(--english-violet);
     padding: 3% 0% 3% 3%;
 }
 
@@ -6110,8 +6109,8 @@ form .login-text {
 }
 
 .delivery-shop-brought-back-item-type-product {
-    border: 2px solid rgb(122, 0, 122);
-    background: rgb(255, 70, 255);
+    border: 2px solid var(--dark-spring-green);
+    background: var(--dark-spring-green);
     border-radius: 2%;
     display: flex;
     flex-direction: column;
@@ -6125,7 +6124,7 @@ form .login-text {
 
 .delivery-shop-brought-back-item-type-product-name {
     font-weight: bold;
-    color: #5f0133;
+    color: var(--english-violet);
     align-self: center;
 }
 
@@ -6138,7 +6137,7 @@ form .login-text {
     border: none;
     outline: none;
     margin: 2% 0% 2% 0%;
-    border: 2px solid rgb(64, 0, 64);
+    border: 2px solid var(--dark-spring-green);
     font-weight: bold;
 }
 
@@ -6158,12 +6157,12 @@ form .login-text {
     height: 4rem;
     border: none;
     outline: none;
-    background: linear-gradient(to right, rgb(49, 1, 49), rgb(63, 1, 63), rgb(96, 1, 96));
+    background: var(--dark-spring-green);
     color: white;
 }
 
 .delivery-shop-brought-back-item-opening-delivery-shop-submit:hover {
-    background: rgb(175, 0, 175);
+    background: var(--dark-spring-green);
     font-size: 1.5rem;
 }
 
@@ -6175,7 +6174,7 @@ form .login-text {
 .subs-header {
     width: 100%;
     height: 30px;
-    background: #ff1493;
+    background: var(--orange);
     color: white;
     padding: 10px 0px 25px 30px;
     text-align: center;
@@ -6207,7 +6206,7 @@ form .login-text {
 
 .subs-customer-search h3 {
     font-weight: bold;
-    color:#470026;
+    color:var(--blue-ncs);
     line-height: 1.5;
 }
 
@@ -6250,24 +6249,24 @@ form .login-text {
 
 .subs-product-name {
     font-weight: bolder;
-    color:#38001e;
+    color:var(--blue-ncs);
     margin-bottom: 5px;
 }
 
 .subs-page-price {
     font-weight: light;
-    color: #5f0133
+    color: var(--english-violet);
 }
 
 .subs-item-price {
     font-weight: bold;
-    color: #a10757;
+    color: var(--dark-spring-green);
 }
 
 .subs-sell-btn {
     width: 80%;
     padding: 7px 2px;
-    background: #ff0084;
+    background: var(--orange);
     border: none;
     outline: none;
     color: white;
@@ -6278,7 +6277,7 @@ form .login-text {
 }
 
 .subs-sell-btn:hover {
-    background: #73013c;
+    background: var(--dark-spring-green);
     padding: 12px;
 }
 
@@ -6293,7 +6292,7 @@ form .login-text {
     padding: 10px 0px;
     border: none;
     outline: none;
-    background: #ff0084;
+    background: var(--orange);
     color: white;
     box-shadow: 1.4px 2.2px 2.1px hsl(0deg 0% 0% / 0.40);
     margin: 5px 0px;
@@ -6349,7 +6348,7 @@ form .login-text {
 .subs-popup-title-main-headers-title {
     font-weight: bold;
     font-size: 1.3rem;
-    color: #ff0084;
+    color: var(--orange);
     width: 100%;
 }
 
@@ -6358,13 +6357,13 @@ form .login-text {
     margin: 0rem 0rem 0rem 0rem;
     font-weight: bold;
     font-size: 1.3rem;
-    color: #ff0084;
+    color: var(--orange);
     line-height: 1.2;
     width: 100%;
 }
 
 .subs-popup-product-name {
-    color: #c10265;
+    color: var(--dark-spring-green);
 }
 
 .subs-popup-input {
@@ -6373,7 +6372,7 @@ form .login-text {
     border: none;
     outline: none;
     font-size: 1.1rem;
-    border-bottom: 2px solid #ff0084;
+    border-bottom: 2px solid var(--orange);
     padding: 2px 0px 3px 3px; 
 }
 
@@ -6381,7 +6380,7 @@ form .login-text {
     margin: 10px 5px 0px 0px;
     padding: 10px;
     color: white;
-    background: #ff0084;
+    background: var(--orange);
     border: none;
     outline: none;
     border-radius: 5px;
@@ -6416,7 +6415,7 @@ form .login-text {
     position: fixed;
     top: 0%;
     left: 0%;
-    background: linear-gradient(to bottom, #ffccd5, #ffb3c1, #ff8fa3);
+    background: linear-gradient(to bottom, #ffccd5, var(--mint-cream));
     width: 100vw;
     height: 100vh;
 }
@@ -6432,14 +6431,14 @@ form .login-text {
     grid-template-columns: 45% 20% 20% 15%;
     margin: 3% 3%;
     font-weight: bold;
-    color: #ff0051;
+    color: var(--orange);
     border-bottom: 2px solid #333;
 }
 
 .subs-calculate-details-products {
     display: grid;
     margin: 1% 0%;
-    border-bottom: 0.5px solid #5f0133;
+    border-bottom: 0.5px solid var(--blue-ncs);
 }
 
 .subs-calculate-total {
@@ -6465,14 +6464,14 @@ form .login-text {
     border: none;
     outline: none;
     color: white;
-    background: #ff0084;
+    background: var(--orange);
     font-weight: bold;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease-in;
 }
 
 .subs-calculate-go-back:hover {
-    background: #5f0133;
+    background: var(--blue-ncs);
 }
 
 .subs-calculate-finish-transaction {
@@ -6483,19 +6482,19 @@ form .login-text {
     border: none;
     outline: none;
     color: white;
-    background: #ff0084;
+    background: var(--orange);
     font-weight: bold;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease-in;
 }
 
 .subs-calculate-finish-transaction:hover {
-    background: #5f0133;
+    background: var(--blue-ncs);
 }
 
 .subs-name-item {
     font-size: 1.6rem;
-    color:rgb(246, 0, 127);
+    color:var(--orange);
     font-weight: bold;
 }
 
@@ -6549,7 +6548,7 @@ form .login-text {
 .subs-third-popup-data-con-txt {
     font-weight: bold;
     font-size: 1.3rem;
-    color: #ff0084;
+    color: var(--orange);
 }
 
 .subs-third-popup-data-con-mode-of-payment-con {
@@ -6575,7 +6574,7 @@ form .login-text {
 .subs-third-popup-data-con-mode-of-payment-txt {
     font-weight: bold;
     font-size: 1.05rem;
-    color: #ff0385;
+    color: var(--orange);
 }
 
 .subs-third-popup-data-con-cash-option {
@@ -6591,7 +6590,7 @@ form .login-text {
 .subs-third-popup-data-con-cash-option-txt {
     font-weight: bold;
     font-size: 1.05rem;
-    color: #ff0385;
+    color: var(--orange);
 }
 
 .subs-third-popup-data-con-transfer-option {
@@ -6607,7 +6606,7 @@ form .login-text {
 .subs-third-popup-data-con-transfer-option-txt {
     font-weight: bold;
     font-size: 1.05rem;
-    color: #ff0385;
+    color: var(--orange);
 }
 
 .subs-third-popup-data-con-pos-option {
@@ -6623,7 +6622,7 @@ form .login-text {
 .subs-third-popup-data-con-pos-option-txt {
     font-weight: bold;
     font-size: 1.05rem;
-    color: #ff0385;    
+    color: var(--orange);    
 }
 
 .subs-third-popup-data-cash-details-main-con {
@@ -6644,12 +6643,12 @@ form .login-text {
 }
 
 .subs-third-popup-data-cash-details-amt-collected-txt {
-    color: #ff0084;
+    color: var(--orange);
     font-weight: bold;
 }
 
 .subs-third-popup-data-cash-details-amt-collected-txt-sub-name {
-    color: #ff0084;
+    color: var(--orange);
     font-weight: bold;    
 }
 
@@ -6660,7 +6659,7 @@ form .login-text {
 .subs-third-popup-data-cash-details-amt-collected-input {
     width: 60%;
     outline: none;
-    border: 2px solid #ff0051;
+    border: 2px solid var(--orange);
     font-weight: bold;
 }
 
@@ -6678,7 +6677,7 @@ form .login-text {
 }
 
 .subs-third-popup-data-cash-details-to-balance-txt {
-    color: #ff0084;
+    color: var(--orange);
     font-weight: bold;    
 }
 
@@ -6689,7 +6688,7 @@ form .login-text {
 .subs-third-popup-data-cash-details-to-balance-input {
     width: 60%;
     outline: none;
-    border: 2px solid #ff0051;
+    border: 2px solid var(--orange);
     font-weight: bold;    
 }
 
@@ -6707,7 +6706,7 @@ form .login-text {
 }
 
 .subs-third-popup-data-cash-details-balance-txt {
-    color: #ff0084;
+    color: var(--orange);
     font-weight: bold;        
 }
 
@@ -6718,7 +6717,7 @@ form .login-text {
 .subs-third-popup-data-cash-details-balance-input {
     width: 60%;
     outline: none;
-    border: 2px solid #ff0051;
+    border: 2px solid var(--orange);
     font-weight: bold;    
 }
 
@@ -6743,7 +6742,7 @@ form .login-text {
     width: 100%;
     padding: 0.5rem 0.2rem;
     color: white;
-    background: #ff0385;
+    background: var(--orange);
     font-weight: bold;
     border-radius: 0.2rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
@@ -6754,7 +6753,7 @@ form .login-text {
 
 .subs-third-popup-data-cash-details-btns-go-back-btn:active {
     padding: 0.7rem 0.4rem;
-    background: #6a0d2a;
+    background: var(--english-violet);
 }
 
 .subs-third-popup-data-cash-details-btns-submit-btn-con {
@@ -6773,7 +6772,7 @@ form .login-text {
     width: 100%;
     padding: 0.5rem 0.2rem;
     color: white;
-    background: #ff0385;
+    background: var(--orange);
     font-weight: bold;
     border-radius: 0.2rem;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
@@ -6784,7 +6783,7 @@ form .login-text {
 
 .subs-third-popup-data-cash-details-btns-submit-btn:active {
     padding: 0.7rem 0.4rem;
-    background: #6a0d2a;
+    background: var(--english-violet);
 }
 
 .subs-third-popup-hide {
@@ -6819,7 +6818,7 @@ form .login-text {
     width: 100%;
     height: 5vh;
     padding: 1rem 0rem 1rem 0rem;
-    background: #c10265;
+    background: var(--blue-ncs);
     color: white;
     font-weight: bold;
     font-size: 1.1rem;
@@ -6834,7 +6833,7 @@ form .login-text {
 .invoice-head-motive {
     width: 100%;
     height: 10vh;
-    color: #790141;
+    color: var(--english-violet);
     font-size: 1.6rem;
     text-align: center;
 }
@@ -6859,7 +6858,7 @@ form .login-text {
     width: 90%;
     height: 4vh;
     background: white;
-    color: rgb(64, 0, 64);
+    color: var(--blue-ncs);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
     padding: 1rem 0rem 1rem 0.5rem;
     margin: 0rem 0rem 0.5rem 0rem;
@@ -6880,7 +6879,7 @@ form .login-text {
     width: 90%;
     height: 4vh;
     background: white;
-    color: rgb(49, 1, 49);
+    color: var(--blue-ncs);
     padding: 1rem 0rem 1rem 1rem;
     margin-bottom: 0.3rem;
     font-weight: bold;
@@ -6906,9 +6905,9 @@ form .login-text {
 
 .invoice-number-input {
     outline: none;
-    border: 2px solid #9e0353;
+    border: 2px solid var(--blue-ncs);
     font-weight: bold;
-    color: #5a002f;
+    color: var(--blue-ncs);
     padding: 0.25rem 0rem 0.25rem 0.5rem;
     width: 30%;
 }
@@ -6930,18 +6929,18 @@ form .login-text {
 
 .upload-invoice-txt {
     font-size: 1.3rem;
-    color: #5a002f;
+    color: var(--english-violet);
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
 .upload-invoice-file {
-    background: #9e0353;
+    background: var(--blue-ncs);
     color: white;
 } 
 
 .submit-invoice {
-    background: #c10265;
+    background: var(--blue-ncs);
     color: white;
     font-weight: bold;
     border: none;
@@ -6953,7 +6952,7 @@ form .login-text {
 }
 
 .submit-invoice:hover {
-    background: #59022f;
+    background: var(--english-violet);
 }
 
 .invoice-hide {
@@ -6977,14 +6976,14 @@ form .login-text {
 
 .error-page-main-header-con {
     width: 100%;
-    background: #ff0084;
+    background: var(--orange);
     margin: 0rem 0rem 2rem 0rem;
     padding: 0.5rem 0rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #ff0051;
+    border-bottom: 2px solid var(--orange);
 }
 
 .error-page-main-header-txt {
@@ -7018,14 +7017,14 @@ form .login-text {
 
 .error-page-main-body-error-main-txt {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ef0e55;
+    color: var(--orange);
     font-size: 2rem;
     font-weight: bold;
 }
 
 .error-page-main-body-error-main-exclamation-con {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ef0e55;
+    color: var(--orange);
     font-size: 2rem;
     font-weight: bold;
 }
@@ -7036,7 +7035,7 @@ form .login-text {
 }
 
 .error-page-main-body-f-com-con-txt {
-    color: #ff1493;
+    color: var(--dark-spring-green);
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -7044,7 +7043,7 @@ form .login-text {
 .error-page-number {
     font-size: 1.3rem;
     font-weight: bold;
-    color: #ff0051;
+    color: var(--dark-spring-green);
 }
 
 /* Error page(error.html) styling end */
@@ -7055,7 +7054,7 @@ form .login-text {
 .register-body {
     height: 100vh;
     width: 100%;
-    background: limegreen;
+    background: var(--mint-cream);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7073,7 +7072,7 @@ form .login-text {
 
 form .register-text {
     padding: 5px;
-    color: lime;
+    color: var(--english-violet);
 }
 
 
@@ -7081,7 +7080,7 @@ form .register-text {
     margin: 20px 0px 20px 0px;
     outline: none;
     border-radius: 7px;
-    border: 1px solid limegreen;
+    border: 1px solid var(--english-violet);
     height: 23px;
 }
 
@@ -7089,15 +7088,15 @@ form .register-text {
     margin: 5px 0px 5px 0px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid limegreen;
+    border: 1px solid var(--english-violet);
     background-color: transparent;
     cursor: pointer;
-    color: limegreen;
+    color: var(--english-violet);
     box-shadow: 1.4px 2.2px 2.1px hsl(0deg 0% 0% / 0.40);
 }
 
 .register-submit-btn:hover {
-    background-color: limegreen;
+    background-color: var(--english-violet);
     font-weight: bold;
 }
 
